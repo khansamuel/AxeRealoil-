@@ -4,56 +4,91 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About Us - Real Oil Project</title>
+    <title>About Us - Trash Off</title>
     <link
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
       rel="stylesheet"
     />
     <style>
+      body {
+        font-family: 'Montserrat', sans-serif;
+        color: #333;
+      }
+
+      .navbar {
+        margin-bottom: 50px;
+      }
+
       .about-section {
-        padding: 60px 0;
-        background-color: #f8f9fa;
+        padding-top: 30px;
+        background-color: #f8f8f8;
       }
       .about-section h2 {
-        font-size: 36px;
-        margin-bottom: 20px;
+        font-size: 42px;
+        font-weight: 700;
+        margin-bottom: 30px;
+        color: #000;
       }
       .about-section p {
-        font-size: 18px;
-        margin-bottom: 20px;
+        font-size: 20px;
+        line-height: 1.6;
+        margin-bottom: 30px;
+        color: #555;
       }
+
       .mission-vision {
-        padding: 60px 0;
+        padding: 80px 0;
+        background-color: #f0f0f0;
+        color: #444;
       }
       .mission-vision h3 {
-        font-size: 30px;
-        margin-bottom: 15px;
+        font-size: 36px;
+        font-weight: 700;
+        margin-bottom: 20px;
       }
       .mission-vision p {
-        font-size: 18px;
+        font-size: 20px;
+        line-height: 1.6;
       }
+
       .features {
-        padding: 60px 0;
+        padding: 80px 0;
+        background-color: #f8f8f8;
       }
       .feature-box {
-        padding: 20px;
+        padding: 30px;
         border: 1px solid #ddd;
         border-radius: 5px;
         text-align: center;
+        background-color: #fff;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s, box-shadow 0.3s;
+      }
+      .feature-box:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
       }
       .feature-box i {
-        font-size: 40px;
-        margin-bottom: 10px;
+        font-size: 50px;
+        margin-bottom: 20px;
+        color: #888;
       }
       .feature-box h4 {
         font-size: 24px;
-        margin-bottom: 10px;
+        font-weight: 700;
+        margin-bottom: 15px;
+        color: #444;
+      }
+      .feature-box p {
+        font-size: 18px;
+        line-height: 1.6;
+        color: #555;
       }
     </style>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Real Oil</a>
+      <a class="navbar-brand" href="#">Trash Off</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -67,7 +102,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
           <li class="nav-item active"><a class="nav-link" href="#">About Us</a></li>
           <li class="nav-item"><a class="nav-link" href="#">Contacts</a></li>
           <li class="nav-item"><a class="nav-link" href="dashboard.php">Collector Dashboard</a></li>
@@ -79,11 +114,12 @@
     <div class="container about-section">
       <div class="row">
         <div class="col-md-12 text-center">
-          <h2>About Real Oil Project</h2>
+          <h2>About Trash Off</h2>
           <p>
-            Welcome to the Real Oil Project. Our mission is to revolutionize the
-            way used engine oil is collected and recycled. We also focus on
-            dust collection and providing timely feedback to our users.
+            At Trash Off, we are dedicated to revolutionizing the way waste, particularly used engine oil, is collected and recycled. Our mission is to create a sustainable environment by ensuring that used engine oil and other waste materials are properly collected, processed, and repurposed, reducing the environmental impact of improper disposal.
+          </p>
+          <p>
+            Through our comprehensive waste collection and oil recycling systems, we aim to minimize the harm caused by the improper management of these resources. We believe in promoting a circular economy where waste is seen as a valuable commodity, and we work tirelessly to develop innovative solutions that benefit both the environment and our communities.
           </p>
         </div>
       </div>
@@ -94,17 +130,13 @@
         <div class="col-md-6">
           <h3>Our Mission</h3>
           <p>
-            To create a sustainable environment by ensuring that used engine
-            oil is properly collected and recycled. We aim to reduce the
-            environmental impact of oil disposal through innovative solutions.
+            To establish a robust and efficient system for the collection, processing, and recycling of used engine oil and other waste materials. We strive to minimize the environmental harm caused by improper disposal and promote the responsible management of these resources, contributing to a cleaner and healthier environment.
           </p>
         </div>
         <div class="col-md-6">
           <h3>Our Vision</h3>
           <p>
-            To be a leading organization in oil recycling and waste management,
-            promoting a cleaner and healthier environment for future
-            generations.
+            To be a leading organization in the field of waste management and oil recycling, setting new standards for environmental sustainability. We envision a future where used engine oil and other waste are efficiently collected, processed, and repurposed, creating a circular economy that benefits both the environment and our communities.
           </p>
         </div>
       </div>
@@ -117,18 +149,16 @@
             <i class="fas fa-recycle"></i>
             <h4>Oil Recycling</h4>
             <p>
-              We collect and recycle used engine oil, converting it into
-              reusable products to reduce environmental harm.
+              We have developed a comprehensive system to collect and recycle used engine oil, converting it into valuable products that can be reused, reducing the environmental impact of improper disposal.
             </p>
           </div>
         </div>
         <div class="col-md-4">
           <div class="feature-box">
-            <i class="fas fa-cloud"></i>
-            <h4>Dust Collection</h4>
+            <i class="fas fa-trash-alt"></i>
+            <h4>Garbage Collection</h4>
             <p>
-              Our dust collection systems ensure that particulate matter is
-              effectively captured, promoting cleaner air.
+              Our efficient garbage collection services ensure that various waste materials, including used engine oil, are properly gathered and processed, promoting a cleaner and more sustainable environment.
             </p>
           </div>
         </div>
@@ -137,8 +167,7 @@
             <i class="fas fa-comments"></i>
             <h4>User Feedback</h4>
             <p>
-              We provide timely feedback to our users about the status of their
-              collected oil, ensuring transparency and efficiency.
+              We prioritize transparency and efficiency by providing timely feedback to our users about the status of their collected waste and recycled oil, ensuring a seamless and informative experience.
             </p>
           </div>
         </div>
