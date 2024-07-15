@@ -26,7 +26,7 @@
           <a class="nav-link" href="index.html">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="collection.php">Collection</a>
+          <a class="nav-link" href="dashboard.php">Collection</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="report.php">Report</a>

@@ -215,6 +215,74 @@ body {
     width: 100%;
     border-radius: 5px;
 }
+.navbar {
+    background-color: #040713;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .brand-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-links ul li {
+    margin-right: 20px;
+  }
+  
+  .nav-links ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links ul li a:hover {
+    color: #ff5c62;
+  }
+  .signup-button {
+    background-color: #ff5c62;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signup-button:hover {
+    background-color: #d10303;
+  }
+  
+  .upgrade_button_red_sale {
+    box-shadow: 0 2px 4px 0 rgba(255, 69, 70, 0.2);
+    max-width: 350px;
+    border: 0;
+    border-radius: 3px;
+    background-color: #ff4546 !important;
+    padding: 15px 55px !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .upgrade_button_red_sale:hover {
+    background-color: #d10303 !important;
+  }
+    
 
 .img-slider .slide .info {
     width: 100%;
@@ -237,7 +305,6 @@ body {
     z-index: 2;
     position: absolute;
     display: flex;
-    bottom: 30px;
     left: 50%;
     transform: translateX(-50%);
 }
